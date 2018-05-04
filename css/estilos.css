@@ -1,0 +1,83 @@
+
+
+#sec-sobremi{
+    color: black;
+  
+    
+
+}
+
+#sec-nombre{
+color: black;
+
+    
+}
+#sec-habilidades{
+    color: black;
+
+    
+}
+
+#sec-trabajos{
+    color: #D55858;
+    background-color:#272727;
+
+    
+}
+#sec-estudios{
+    color: black;
+
+    
+}#sec-portafolio{
+     
+    color: black;
+
+    
+}
+
+#sec-contacto{
+    color: black;
+
+    
+}
+
+.titulo-trabajo{
+    
+  color:#D55858;
+}
+
+.empresa{
+    color: gray;
+    font-style: oblique;
+}
+
+.descripcion-trabajo{
+    color: white;
+}
+
+.hr{
+    border:1px solid #D55858; 
+    align:center; 
+    size:2; 
+    width:70%;
+}
+
+
+
+h1,.nav-item{
+    font-family: Poppins;
+}
+
+
+#scrollUp {
+  bottom: 20px;
+  right: 20px;
+  width: 50px;
+  height: 50px;
+  background: url("https://iconmonstr.com/wp-content/g/gd/makefg.php?i=../assets/preview/2017/png/iconmonstr-arrow-70.png&r=0&g=0&b=0");
+  background-size: cover;
+  border-radius: 50%;
+    
+}
+
+
