@@ -42,13 +42,7 @@
     background-position: center;
 }
 
-    .titulo{
-
-    font-weight: bold;
-    color:white;
-    border: solid 2px;
-    padding:10px;
-    }
+  
 
 </style>
 </head>
