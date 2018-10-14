@@ -37,7 +37,7 @@
 }
 
 
-.page-footer h5{
+.page-footer h5 {
     font-family: "Lilita One";
     font-weight: bold;
     font-size:30px;
@@ -52,8 +52,8 @@
 }
 #sec-contacto{
     -webkit-box-shadow: 4px 4px 10px 2px rgba(0,0,0,0.2);
--moz-box-shadow: 4px 4px 10px 2px rgba(0,0,0,0.2);
-box-shadow: 4px 4px 10px 2px rgba(0,0,0,0.2);
+    -moz-box-shadow: 4px 4px 10px 2px rgba(0,0,0,0.2);
+    box-shadow: 4px 4px 10px 2px rgba(0,0,0,0.2);
     position: relative;
     z-index: 1;
     margin-bottom:-50px;
@@ -84,10 +84,22 @@ box-shadow: 4px 4px 10px 2px rgba(0,0,0,0.2);
     
 }
 
+#sec-portafolio h1{
+
+    font-family:"Open Sans";
+    font-weight: 900;
+    background-color:black;
+    display: inline;
+    padding: .1rem .6rem;
+    color:#fbd00a;
+
+}
+
 .card-body h5{
     font-family: "Open Sans";
-    font-weight: 700;
+    font-weight: 900;
     font-size:18;
+    color: black;
 }
 
 
@@ -108,20 +120,16 @@ ul a{
     letter-spacing: 2px;
     font-weight: 400;
     margin-right:20px;
+    color:black;
     
     
 }
 
-
-
-
-
-    
-   
-    
-    
-
-
+ul a:hover{
+    background-color: black;
+    color:#fbd00a;
+    transform: scale(1.4);
+}
 
 
 
