@@ -1,4 +1,17 @@
+.inicio{
+    background-color: #fbd00a;
+}.inicio h1{
+    font-family: "Open Sans";
+    font-weight: 900;
+    font-size: 3rem;
+    margin: 1.7rem 0;
+   color:black;
 
+}
+
+.inicio span{
+    color:#fbd00a;
+}
 #sec-habilidades h4{
 
     font-family:"Open Sans";
@@ -41,12 +54,12 @@
     font-family: "Lilita One";
     font-weight: bold;
     font-size:30px;
-    color:white;
+    color:#fbd00a;
     padding-top:50px;
 }
 
 .page-footer hr{
-    border:1px solid white; 
+    border:1px solid #fbd00a;; 
   
     width:40px;
 }
@@ -76,11 +89,20 @@
 
 #sec-contacto .correo{
 
-    background-color: #fbd00a;
+    background-color: black;
     display: inline;
     padding: .1rem .6rem;
     font-family: "Montserrat";
-    font-weight: 900;
+    font-weight:bold;
+    color:#fbd00a;
+    
+}
+
+#sec-contacto p{
+
+    color:black;
+    font-weight: 400;
+    font-family:"Montserrat";
     
 }
 
@@ -157,6 +179,7 @@ ul a:hover{
 .ianimacion{
     transition: all 0.1s ease;
     font-size:70%;
+    color:#fbd00a;
 }
 
 
