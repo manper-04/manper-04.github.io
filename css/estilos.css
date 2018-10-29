@@ -1,6 +1,8 @@
 .inicio{
     background-color: #fbd00a;
-}.inicio h1{
+}
+
+.inicio h1{
     font-family: "Open Sans";
     font-weight: 900;
     font-size: 3rem;
@@ -38,71 +40,6 @@
    
     
 
-    
-}
-
-.page-footer{
-   
-    position: relative;
-    z-index: 0;
-
-    
-}
-
-
-.page-footer h5 {
-    font-family: "Lilita One";
-    font-weight: bold;
-    font-size:30px;
-    color:#fbd00a;
-    padding-top:50px;
-}
-
-.page-footer hr{
-    border:1px solid #fbd00a;; 
-  
-    width:40px;
-}
-#sec-contacto{
-    -webkit-box-shadow: 4px 4px 10px 2px rgba(0,0,0,0.2);
-    -moz-box-shadow: 4px 4px 10px 2px rgba(0,0,0,0.2);
-    box-shadow: 4px 4px 10px 2px rgba(0,0,0,0.2);
-    position: relative;
-    z-index: 1;
-    margin-bottom:-50px;
-    background-color:white;
-  
-  
-}
-
-#sec-contacto h4{
-
-    font-family:"Open Sans";
-    font-weight: 900;
-    background-color:black;
-    display: inline;
-    padding: .1rem .6rem;
-    color:#fbd00a;
-    font-size:20px;
-    
-}
-
-#sec-contacto .correo{
-
-    background-color: black;
-    display: inline;
-    padding: .1rem .6rem;
-    font-family: "Montserrat";
-    font-weight:bold;
-    color:#fbd00a;
-    
-}
-
-#sec-contacto p{
-
-    color:black;
-    font-weight: 400;
-    font-family:"Montserrat";
     
 }
 
@@ -154,16 +91,70 @@ ul a:hover{
 }
 
 
+#sec-contacto{
+    -webkit-box-shadow: 4px 4px 10px 2px rgba(0,0,0,0.2);
+    -moz-box-shadow: 4px 4px 10px 2px rgba(0,0,0,0.2);
+    box-shadow: 4px 4px 10px 2px rgba(0,0,0,0.2);
+    position: relative;
+    z-index: 1;
+    margin-bottom:-50px;
+    background-color:white;
+  
+  
+}
 
-#scrollUp {
-  bottom: 20px;
-  right: 20px;
-  width: 50px;
-  height: 50px;
-  background: url("https://iconmonstr.com/wp-content/g/gd/makefg.php?i=../assets/preview/2017/png/iconmonstr-arrow-70.png&r=0&g=0&b=0");
-  background-size: cover;
-  border-radius: 50%;
+#sec-contacto h4{
+
+    font-family:"Open Sans";
+    font-weight: 900;
+    background-color:black;
+    display: inline;
+    padding: .1rem .6rem;
+    color:#fbd00a;
+    font-size:20px;
     
+}
+
+#sec-contacto .correo{
+
+    background-color: black;
+    display: inline;
+    padding: .1rem .6rem;
+    font-family: "Montserrat";
+    font-weight:bold;
+    color:#fbd00a;
+    
+}
+
+#sec-contacto p{
+
+    color:black;
+    font-weight: 400;
+    font-family:"Montserrat";
+    
+}
+
+.page-footer{
+   
+    position: relative;
+    z-index: 0;
+
+    
+}
+
+
+.page-footer h5 {
+    font-family: "Lilita One";
+    font-weight: bold;
+    font-size:30px;
+    color:#fbd00a;
+    padding-top:50px;
+}
+
+.page-footer hr{
+    border:1px solid #fbd00a;; 
+  
+    width:40px;
 }
 
 .ianimacion:hover{
@@ -181,5 +172,18 @@ ul a:hover{
     font-size:70%;
     color:#fbd00a;
 }
+
+#scrollUp {
+  bottom: 20px;
+  right: 20px;
+  width: 50px;
+  height: 50px;
+  background: url("https://iconmonstr.com/wp-content/g/gd/makefg.php?i=../assets/preview/2017/png/iconmonstr-arrow-70.png&r=0&g=0&b=0");
+  background-size: cover;
+  border-radius: 50%;
+    
+}
+
+
 
 
