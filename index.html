@@ -27,15 +27,20 @@
     <script src="js/wow.min.js"></script>
     <link rel="stylesheet" href="css/animate.css">
    
-    <script>
-    new WOW().init();
-    </script>
+  
 
 
 </head>
+    
+    
+
 
 <body>
+<div id="preloader">
+    <div id="loader"></div>
+</div>
     
+<div class="container-fluid d-none  " id="contenido">
  <!-- Inicio Slide-->
 
   <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
@@ -66,7 +71,7 @@
 
 <section class="container-fluid ">
     <div class="row mt-5">
-        <div class="col-sm-12 col-xs-12 col-md-4  offset-md-1 wow fadeInLeft  " id="sec-habilidades" data-wow-delay="0.5s">
+        <div class="col-sm-12 col-xs-12 col-md-4  offset-md-1  " id="sec-habilidades" >
             <h4>About Me</h4> 
             <p class="mt-4"><b>Lorem ipsum dolor sit amet</b>, consectetur adipisicing elit. Vitae eos modi suscipit deleniti sapiente optio error quam? Numquam, ex commodi, veritatis distinctio repellat quas quam sequi delectus deserunt temporibus <b>quis!</b></p>      
             
@@ -75,7 +80,7 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae eos modi suscipit deleniti sapiente optio error quam? Numquam, ex commodi, <b>veritatis distinctio repellat quas quam sequi delectus deserunt temporibus quis!</b></p>   
 
         </div>
-        <div class="col-sm-7 wow fadeInRight d-none d-md-block " id="sec-habilidades2">
+        <div class="col-sm-7 d-none d-md-block " id="sec-habilidades2">
         </div>
     </div>
 </section>
@@ -85,7 +90,7 @@
 
   <!-- Inicio seccion portafolio -->
 
-<section class="container text-center wow fadeIn  " data-wow-delay="0.5s " id="sec-portafolio" ><br><br>
+<section class="container text-center"  id="sec-portafolio" ><br><br>
     <h1 class="text-center mt-5 mb-5 " style="font-family:'Open Sans';font-weight: 900;">Projects</h1><br>
     <div class="row">
         <div class="col-sm-12 ">
@@ -185,7 +190,7 @@
 
 <!-- Inicio seccion contacto -->
 
-<section class="container mt-5 p-3 wow slideInDown" id="sec-contacto" style="background-color:#fbd00a;"  >
+<section class="container mt-5 p-3 wow fadeInLeft"  id="sec-contacto" style="background-color:#fbd00a;"  >
         <div class="row">
             <div class="col-sm-5 offset-sm-1  " style="border-right:1px solid rgba(0,0,0,0.12);">
                 <h4>Instagram</h4>
@@ -232,7 +237,32 @@
         </div>
     </div>
 </footer>
+</div>
 <!--/Footer-->
+ <script>
+     window.addEventListener('load',() => {
+     
+  
+  
 
+    setTimeout(carga,1500);
+
+    function carga(){
+     $("#preloader").addClass("d-none");
+  
+ 
+      document.getElementById('contenido').className = '';
+      $("#carouselExampleFade").addClass("animated fadeInDown");
+      $("#sec-habilidades").addClass("animated fadeInLeft");
+      $("#sec-habilidades2").addClass("animated fadeInRight");
+     
+     
+    }
+  });
+   
+
+  
+  
+  </script>
 </body>
 </html>

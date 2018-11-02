@@ -1,4 +1,22 @@
+window.addEventListener('load',() => {
+     
+  
+  
 
+	setTimeout(carga,1500);
+
+	function carga(){
+	 $("#preloader").addClass("d-none");
+
+
+		document.getElementById('contenido').className = '';
+		$("#carouselExampleFade").addClass("animated fadeInDown");
+		$("#sec-habilidades").addClass("animated fadeInLeft");
+		$("#sec-habilidades2").addClass("animated fadeInRight");
+	 
+	 
+	}
+});
     $(function(){
   $.scrollUp({
       scrollImg: true
