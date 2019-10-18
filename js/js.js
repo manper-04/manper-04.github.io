@@ -1,20 +1,11 @@
 window.addEventListener('load',() => {
-     
-  
-  
-
 	setTimeout(carga,1500);
-
 	function carga(){
 	 $("#preloader").addClass("d-none");
-
-
 		document.getElementById('contenido').className = '';
 		$("#carouselExampleFade").addClass("animated fadeInDown");
 		$("#sec-habilidades").addClass("animated fadeInLeft");
 		$("#sec-habilidades2").addClass("animated fadeInRight");
-	 
-	 
 	}
 });
     $(function(){
@@ -50,22 +41,22 @@ window.addEventListener('load',() => {
 	after: function (anchor, toggle) {} // Callback to run after scroll
 });
 
-$(document).ready(function(e){
+	$(document).ready(function(e){
 
-$('.cntl').cntl({
+	$('.cntl').cntl({
 
-// The amount of "scroll padding" to allow 
-// The more, the later the state will be revealed
-revealbefore: 300,
+	// The amount of "scroll padding" to allow 
+	// The more, the later the state will be revealed
+	revealbefore: 300,
 
-// The animate class
-// This class should have animation rules in css
-anim_class: 'cntl-animate',
+	// The animate class
+	// This class should have animation rules in css
+	anim_class: 'cntl-animate',
 
-// A callback once the state has been revealed
-onreveal: null
+	// A callback once the state has been revealed
+	onreveal: null
 
-});
+	});
 
 });
 
