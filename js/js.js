@@ -85,3 +85,7 @@ window.addEventListener('load',() => {
 	});
 
   });
+	    
+var fecha = new Date();
+var ano = fecha.getFullYear();
+document.getElementById('fecha').innerHTML = ano;
