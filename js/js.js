@@ -1,7 +1,22 @@
+
 $(function() {
 	$.scrollUp({
 	  scrollImg: true
 	});
+
+window.addEventListener('load',() => {
+	setTimeout(carga,1500);
+	function carga(){
+	 $("#preloader").addClass("d-none");
+		document.getElementById('contenido').className = '';
+		$("#carouselExampleFade").addClass("animated fadeInDown");
+		$("#sec-habilidades").addClass("animated fadeInLeft");
+		$("#sec-habilidades2").addClass("animated fadeInRight");
+	}
+});
+    $(function(){
+  $.scrollUp({
+      scrollImg: true
   });
 
   var scroll = new SmoothScroll('a[href*="#"]', {
@@ -26,11 +41,33 @@ $(function() {
 	},
 
 	// Callback API
+
 	before: function(anchor, toggle) {}, // Callback to run before scroll
 	after: function(anchor, toggle) {} // Callback to run after scroll
   });
 
   $(document).ready(function(e) {
+
+	before: function (anchor, toggle) {}, // Callback to run before scroll
+	after: function (anchor, toggle) {} // Callback to run after scroll
+});
+
+	$(document).ready(function(e){
+
+	$('.cntl').cntl({
+
+	// The amount of "scroll padding" to allow 
+	// The more, the later the state will be revealed
+	revealbefore: 300,
+
+	// The animate class
+	// This class should have animation rules in css
+	anim_class: 'cntl-animate',
+
+	// A callback once the state has been revealed
+	onreveal: null
+
+	});
 
 	$('.cntl').cntl({
 
