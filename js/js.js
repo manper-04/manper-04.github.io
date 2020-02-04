@@ -38,7 +38,6 @@ window.addEventListener('load',() => {
 	  // Example: easeInOut Quad
 	  return time < 0.5 ? 2 * time * time : -1 + (4 - 2 * time) * time;
 	},
-
 	// Callback API
 
 	before: function(anchor, toggle) {}, // Callback to run before scroll
