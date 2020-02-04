@@ -26,20 +26,11 @@
     <script src="js/holder.js"></script>
     <script src="js/wow.min.js"></script>
     <link rel="stylesheet" href="css/animate.css">
-   
-  
-
-
 </head>
-    
-    
-
-
 <body>
 <div id="preloader">
     <div id="loader"></div>
 </div>
-    
 <div class="container-fluid d-none  " id="contenido">
  <!-- Inicio Slide-->
 
@@ -72,13 +63,10 @@
 <section class="container-fluid ">
     <div class="row mt-5">
         <div class="col-sm-12 col-xs-12 col-md-4  offset-md-1  " id="sec-habilidades" >
-            <h4>About Me</h4> 
-            <p class="mt-4"><b>Lorem ipsum dolor sit amet</b>, consectetur adipisicing elit. Vitae eos modi suscipit deleniti sapiente optio error quam? Numquam, ex commodi, veritatis distinctio repellat quas quam sequi delectus deserunt temporibus <b>quis!</b></p>      
-            
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae eos modi suscipit deleniti sapiente optio error quam? <b>Numquam</b>, ex commodi, veritatis distinctio repellat quas quam sequi delectus deserunt temporibus quis!</p>   
-
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae eos modi suscipit deleniti sapiente optio error quam? Numquam, ex commodi, <b>veritatis distinctio repellat quas quam sequi delectus deserunt temporibus quis!</b></p>   
-
+            <h4>About Me</h4>
+            <p class="mt-4"><b>Lorem ipsum dolor sit amet</b>, consectetur adipisicing elit. Vitae eos modi suscipit deleniti sapiente optio error quam? Numquam, ex commodi, veritatis distinctio repellat quas quam sequi delectus deserunt temporibus <b>quis!</b></p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae eos modi suscipit deleniti sapiente optio error quam? <b>Numquam</b>, ex commodi, veritatis distinctio repellat quas quam sequi delectus deserunt temporibus quis!</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae eos modi suscipit deleniti sapiente optio error quam? Numquam, ex commodi, <b>veritatis distinctio repellat quas quam sequi delectus deserunt temporibus quis!</b></p>
         </div>
         <div class="col-sm-7 d-none d-md-block " id="sec-habilidades2">
         </div>
@@ -86,7 +74,6 @@
 </section>
 
   <!-- Fin seccion About Me -->
-
 
   <!-- Inicio seccion portafolio -->
 
@@ -102,7 +89,7 @@
             </ul>
         </div>
     </div>
-    <div class="row mt-5">  
+    <div class="row mt-5">
         <div class="col-sm-3 mb-5">
             <div class="card" >
                 <img class="card-img-top" src="https://via.placeholder.com/286x180" alt="Card image cap">
@@ -182,7 +169,7 @@
                     <i class="fas fa-globe" style="font-size: 20px;"></i>
                 </div>
             </div>
-        </div>        
+        </div>
     </div>
 </section>
 
@@ -194,11 +181,8 @@
         <div class="row">
             <div class="col-sm-5 offset-sm-1  " style="border-right:1px solid rgba(0,0,0,0.12);">
                 <h4>Instagram</h4>
-
                 <p class="mt-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis animi fugit inventore facilis sed, perferendis eveniet impedit officiis quasi enim iure molestiae veniam at iste asperiores obcaecati praesentium consequuntur eos.</p>
-
             </div>
-
             <div class="col-sm-5 offset-sm-1 mb-5">
                 <h4 class=""> Contact</h4><br><br>
                 <p>
@@ -212,6 +196,7 @@
 <!-- Fin seccion contacto -->
 
 <!--Footer-->
+
 <footer class="page-footer font-small  pt-0 " style="background:#000000;">
     <div class="container">
         <div class="row">
@@ -233,39 +218,27 @@
             <div class="col-sm-12 text-center " style=" font-family: 'Lilita One';font-weight: bold;font-size:20px;
             color:#fbd00a;;">
                 <p id="fecha"></p>
-            </div>  
+            </div>
         </div>
     </div>
 </footer>
 </div>
+
 <!--/Footer-->
  <script>
-      var fecha = new Date();
+    var fecha = new Date();
     var ano = fecha.getFullYear();
     document.getElementById('fecha').innerHTML = ano;
-     window.addEventListener('load',() => {
-     
-  
-  
-
+    window.addEventListener('load',() => {
     setTimeout(carga,1500);
-
     function carga(){
      $("#preloader").addClass("d-none");
-  
- 
       document.getElementById('contenido').className = '';
       $("#carouselExampleFade").addClass("animated fadeInDown");
       $("#sec-habilidades").addClass("animated fadeInLeft");
       $("#sec-habilidades2").addClass("animated fadeInRight");
-     
-     
     }
   });
-   
-
-  
-  
   </script>
 </body>
 </html>
