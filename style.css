@@ -1,0 +1,39 @@
+body{
+    background-color:cadetblue;
+   height: 10em;
+   background-image: url('fondo.png');
+    position:center;
+    background-size:cover;
+ 
+    
+}
+footer{
+    background-color:cadetblue;
+    height: 5em;
+    
+    background-image: url('');
+    position:center;
+    background-size:cover;
+    
+    
+}
+#boton{
+background-color:#EE4035;
+position:center;
+color:white;
+font-weight: bold;
+border:0px;
+
+   
+}
+#botonshiny{
+    background-color:rgb(53, 53, 255);
+    position:center;
+    color:white;
+    font-weight: bold;
+    border:0px;
+    
+       
+}
+
+
